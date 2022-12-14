@@ -6,7 +6,7 @@ export const ContainerCard = ({productos}) => {
 
       const [order, setOrder] = useState({items:[]})
       const handleOrder = (item) => {
-        //  setOrder({...order,items:[...order.item,]})
+        setOrder({...order,items:[...order.items,item]})
       }
 
   return (

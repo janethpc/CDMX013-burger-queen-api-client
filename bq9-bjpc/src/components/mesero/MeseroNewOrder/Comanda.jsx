@@ -4,11 +4,7 @@ export const Comanda = () => {
         <div className="card">
               <h5 className="card-header" id="cardHeader">#</h5>
               <p></p>
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item" id="items">
-                 
-                </li>
-              </ul>
+              <p>{counter}</p>
               <div className="card-footer" id="cardHeader">
                 <div id="text-left">
                 <p> TOTAL </p>

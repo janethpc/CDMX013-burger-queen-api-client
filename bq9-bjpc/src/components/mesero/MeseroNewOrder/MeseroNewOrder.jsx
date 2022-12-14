@@ -1,11 +1,11 @@
 
 import {  Link } from 'react-router-dom'
 import { GetApiProducts} from '../../../Api/getApiProducts'
-import {  Comanda } from './Comanda'
-
+import {ContainerComanda} from './ContainerComanda'
 
 export const MeseroNewOrder = () => {
   
+
   return (
     <div>
         <h1>Productos</h1>
@@ -16,7 +16,7 @@ export const MeseroNewOrder = () => {
         </div>
         <div className='col'>
           {/*aqui ira getcomanda*/}
-          <Comanda/>
+          <ContainerComanda/>
         <Link to={'/AllOrder'}><button>Enviar Comanda</button></Link>
         </div>
         </div>
