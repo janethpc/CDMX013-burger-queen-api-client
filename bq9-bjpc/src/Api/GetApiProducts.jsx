@@ -15,6 +15,11 @@ export const GetApiProducts = () => {
           })
     }, [])
     return (
+        <>
+        <div key={productos.id}>
         <ContainerCard productos={productos}/>
+        </div>
+        </>
+        
     )
 }

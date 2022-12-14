@@ -1,7 +1,10 @@
 
+
 export const CardProducts = ({ image, name, price }) => {
+
     return (
         <>
+            
             <div className="card">
                 <img src={image} className="card-img-top" alt={name} />
                 <div className="card-body">
@@ -10,6 +13,7 @@ export const CardProducts = ({ image, name, price }) => {
                     <a href="#" className="btn btn-primary">{price}</a>
                 </div>
             </div>
+      
         </>
     )
 }

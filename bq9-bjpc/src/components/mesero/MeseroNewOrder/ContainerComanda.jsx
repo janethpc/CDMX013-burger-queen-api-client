@@ -2,10 +2,10 @@ import { Comanda } from "./comanda"
 
 
 
-export const ContainerComanda = ({contador}) => {
+export const ContainerComanda = () => {
   return (
     <>
-    <Comanda key={contador}/>
+    <Comanda/>
     </>
   )
 }

@@ -1,12 +1,12 @@
-export const Comanda = ({contador}) => {
+export const Comanda = () => {
   return (
     <>
         <div className="card">
               <h5 className="card-header" id="cardHeader">#</h5>
-              <p>{contador}</p>
+              <p></p>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item" id="items">
-                    producto
+                 
                 </li>
               </ul>
               <div className="card-footer" id="cardHeader">

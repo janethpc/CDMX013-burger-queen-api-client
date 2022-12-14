@@ -1,17 +1,25 @@
+import { useState } from "react"
 import { CardProducts } from "./CardProducts"
 
+
 export const ContainerCard = ({productos}) => {
+
+      const [order, setOrder] = useState({items:[]})
+      const handleOrder = (item) => {
+        //  setOrder({...order,items:[...order.item,]})
+      }
+
   return (
     <>
         {productos.map(product => (
         <>
+        <button onClick={handleOrder}>
         <CardProducts 
-            key={product.id}
             image={product.image}
             name={product.name}
-            price={product.price}
-            
+            price={product.price} 
         />
+        </button>
         </>
         )
     )}
