@@ -11,15 +11,9 @@ export const MeseroNewOrder = () => {
         <h1>Productos</h1>
         <div className="container text-center">
           <div className='row justify-content-start'>
-            <div className='col'>
         <GetApiProducts/>
         </div>
-        <div className='col'>
-          {/*aqui ira getcomanda*/}
-          <ContainerComanda/>
         <Link to={'/AllOrder'}><button>Enviar Comanda</button></Link>
-        </div>
-        </div>
         </div>
     </div>
   )
