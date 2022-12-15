@@ -10,8 +10,8 @@ export const ContainerCard = ({productos}) => {
       const handleOrder = (item) => {
         setOrder({...order,items:[...order.items,item]})
       }
-
-
+   
+      
   return (
     <>
     <div className="container--fluid">
