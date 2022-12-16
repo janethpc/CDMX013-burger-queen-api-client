@@ -9,16 +9,16 @@ export const GetApiProducts = () => {
         .then(response => {
             setProductos(response.data)
         })
-        .catch(function (error) {
+         .catch(function (error) {
             // handle error
             setProductos(error);
           })
     }, [])
     return (
         <>
-        <div >
+        
         <ContainerCard productos={productos} key={productos.id}/>
-        </div>
+        
         </>
         
     )
