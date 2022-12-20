@@ -18,7 +18,7 @@ export const ContainerCard = ({ productos }) => {
     <div className="col-6">
       {productos.map(product => (
         <>
-          <button className="col-4" onClick={() => { handleOrder(product) }}>
+          <button onClick={() => { handleOrder(product) }}>
             <p>{order.items.name}</p>
             <CardProducts
               image={product.image}

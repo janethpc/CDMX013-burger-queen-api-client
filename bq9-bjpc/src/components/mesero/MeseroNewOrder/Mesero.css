@@ -5,3 +5,14 @@
 #bq{
     color: aliceblue;
 }
+
+#bgc{
+    background-color: #BCB7BD;
+    border-radius: 15px;
+}
+
+#finishedOrder{
+    background-color: green;
+    border-radius: 15px;
+    text-decoration: none;
+}
